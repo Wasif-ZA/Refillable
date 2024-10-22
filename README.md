@@ -26,21 +26,21 @@ Refillable is a web application that helps users track and manage reusable coffe
 
 ```bash
 .
-├── public/                # Static assets (images, etc.)
+├── public/                 # Static assets (images, etc.)
 ├── src/
-│   ├── components/        # Reusable React components (optional)
-│   ├── context/           # Global state (authentication)
-│   ├── pages/             # Next.js pages for routing
-│   │   ├── auth.js        # User login and registration
-│   │   ├── subscription.js# Manage subscription data
-│   │   ├── cup-status.js  # Track and update cup statuses
-│   │   ├── scan-cup.js    # RFID scanning of cups
-│   │   └── app-sync.js    # Sync server-side data (balance, payments)
-│   ├── styles/            # Global CSS styles
-│   └── utils/             # Supabase client setup
+│   ├── components/         # Reusable React components (optional)
+│   ├── context/            # Global state (authentication)
+│   ├── pages/              # Next.js pages for routing
+│   │   ├── auth.js         # User login and registration
+│   │   ├── subscription.js # Manage subscription data
+│   │   ├── cup-status.js   # Track and update cup statuses
+│   │   ├── scan-cup.js     # RFID scanning of cups
+│   │   └── app-sync.js     # Sync server-side data (balance, payments)
+│   ├── styles/             # Global CSS styles
+│   └── utils/              # Supabase client setup
 │       └── supabaseClient.js
-├── package.json           # Dependencies
-└── .env.local             # Environment variables
+├── package.json            # Dependencies
+└── .env.local              # Environment variables
 ```
 
 ---
